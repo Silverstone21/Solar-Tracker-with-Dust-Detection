@@ -1,4 +1,5 @@
 "# Solar-Tracker-with-Dust-Detection" 
+
 It has integrated 5 LDR (Light Dependent Resistor) sensors, a thermistor, and a camera for monitoring panel conditions. 
 The LDR sensors were used to detect light intensity from different angles and determine sun’s position, while the thermistor was used to monitor the panel’s temperature. 
 Sensor data was acquired using NI DAQ USB-6001 and processed in LabVIEW. Controlling signals were given to Arduino Uno through DAQ card for controlling the servo motor angle which was for panel rotation. 
